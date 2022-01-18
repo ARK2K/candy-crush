@@ -8,6 +8,7 @@ import purpleCandy from "./images/purple-candy.png";
 import redCandy from "./images/red-candy.png";
 import yellowCandy from "./images/yellow-candy.png";
 import blank from "./images/blank.png";
+import "./App.css";
 
 const width = 8;
 const candyColors = [
@@ -221,7 +222,6 @@ const App = () => {
 
   return (
     <div className="app">
-      <h1>Candy Crush</h1>
       <div className="game">
         {currentColorArrangement.map((candyColor, index) => (
           <img
